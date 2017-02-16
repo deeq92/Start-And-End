@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/daysLeft"
+        android:layout_alignBottom="@+id/dateReturn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/noteText"
+        android:gravity="center"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteText"
+        android:singleLine="false"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:ellipsize="end"
+        android:layout_width="300dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateStart"
+        android:singleLine="false"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:paddingBottom="5dp"
+        android:ellipsize="end"
+        android:layout_width="300dp"
+        android:layout_below="@+id/noteText"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateReturn"
+        android:singleLine="false"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_green_dark"
+        android:paddingBottom="5dp"
+        android:ellipsize="end"
+        android:layout_width="300dp"
+        android:layout_below="@+id/dateStart"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

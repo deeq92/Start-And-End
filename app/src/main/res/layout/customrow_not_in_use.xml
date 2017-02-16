@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteText"
+        android:singleLine="false"
+        android:layout_width="match_parent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateReturn"
+        android:singleLine="false"
+        android:layout_width="match_parent"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_green_dark"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

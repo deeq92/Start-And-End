@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.diazapps.startandend.EditYourNote">
+    <item android:title="Item"
+        android:showAsAction="always"
+        android:icon="@drawable/calendar"
+        android:id="@+id/cal_action" />
+    <item android:title="return"
+        android:icon="@drawable/calendar_return"
+        android:id="@+id/cal_return"
+        android:checkable="false"
+        android:visible="true"
+        android:showAsAction="always" />
+    <item android:title="Save"
+        android:showAsAction="always"
+        android:id="@+id/saveButton"
+        android:icon="@drawable/savebutton" />
+</menu>

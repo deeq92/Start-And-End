@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/return_manually"
+        android:title="Set end date" />
+    <item
+        android:id="@+id/return_setdays"
+        android:title="Set days until end date"
+        />
+
+</menu>
